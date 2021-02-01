@@ -56,11 +56,10 @@ public:
 
 private:
   int length;
-  T info[MAX_ITEMS];
-  
   // Need to create the head... and a node definition
   // Also need something to track the iterator position
 };
+
 
 #include "UnsortedList.cpp"
 
